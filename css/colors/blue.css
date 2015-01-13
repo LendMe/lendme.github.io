@@ -7,7 +7,7 @@ body {
 }
 
 #home, #footer {
-    background-color: #a1d36e;/*#1f9bc9;*/
+    background-color: #8eba61;/*#1f9bc9;*/
 }
 
 .cta1 {
@@ -85,7 +85,7 @@ h4 {
     fill:#dddddd;
 }
 
-#features_3, .arrows_box_bg {
+#features_1, #features_4, .arrows_box_bg {
     background-color:#f7f8fa;
 }
 

@@ -456,15 +456,52 @@ hr {
     cursor: pointer;
 }
 
-
-
-
-
 /*######################################*/
 /*FEATURES 1 ###########################*/
 /*######################################*/
 
 #features_1 {
+    margin:0px;
+    padding-top:6.5rem;
+    padding-bottom:0rem;
+    height:40.625rem;
+    background:white;
+    position:relative;
+    display:block;
+    z-index:20;
+    text-align:left;
+    overflow:hidden;
+}
+
+#features_1_intro {
+    text-align:center;
+    margin-bottom:1.625rem;
+}
+
+#features_1_content_left {
+    text-align:right;
+    padding-right:2rem;
+    padding-bottom:6.5rem;
+}
+
+#features_1_content_right {
+    text-align:left;
+    padding-left:2rem;
+    padding-bottom:6.5rem;
+}
+
+#features_1_content_center img{
+    overflow:hidden;
+}
+
+
+#features_1_intro, #features_1_content_left, #features_1_content_right, #features_1_content_center {opacity:0;}
+
+/*######################################*/
+/*FEATURES 2 ###########################*/
+/*######################################*/
+
+#features_2 {
     margin:0px;
     padding-top:3.25rem;
     padding-bottom:3.25rem;
@@ -475,7 +512,7 @@ hr {
     text-align:left;
 }
 
-#features_1_content {
+#features_2_content {
     padding-top:3rem;
 }
 
@@ -507,14 +544,14 @@ hr {
 }
 
 
-#features_1_content, #features1a_image, #features1b_image {opacity:0;}
+#features_2_content, #features2a_image, #features2b_image {opacity:0;}
 
 
 /*######################################*/
-/*FEATURES 2 ###########################*/
+/*FEATURES 3 ###########################*/
 /*######################################*/
 
-#features_2 {
+#features_3 {
     margin:0px;
     padding-top:3.25rem;
     padding-bottom:3.25rem;
@@ -525,20 +562,20 @@ hr {
     text-align:left;
 }
 
-#features_2_content {
+#features_3_content {
     padding-top:3rem;
 }
 
 
-#features_2_content, #features2a_image, #features2b_image {opacity:0;}
+#features_3_content, #features3a_image, #features3b_image {opacity:0;}
 
 
 
 /*######################################*/
-/*FEATURES 3 ###########################*/
+/*FEATURES 4 ###########################*/
 /*######################################*/
 
-#features_3 {
+#features_4 {
     margin:0px;
     padding-top:6.5rem;
     padding-bottom:0rem;
@@ -551,29 +588,29 @@ hr {
     overflow:hidden;
 }
 
-#features_3_intro {
+#features_4_intro {
     text-align:center;
     margin-bottom:1.625rem;
 }
 
-#features_3_content_left {
+#features_4_content_left {
     text-align:right;
     padding-right:2rem;
     padding-bottom:6.5rem;
 }
 
-#features_3_content_right {
+#features_4_content_right {
     text-align:left;
     padding-left:2rem;
     padding-bottom:6.5rem;
 }
 
-#features_3_content_center img{
+#features_4_content_center img{
     overflow:hidden;
 }
 
 
-#features_3_intro, #features_3_content_left, #features_3_content_right, #features_3_content_center {opacity:0;}
+#features_4_intro, #features_4_content_left, #features_4_content_right, #features_4_content_center {opacity:0;}
 
 
 

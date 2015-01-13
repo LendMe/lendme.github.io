@@ -37,7 +37,9 @@
     $('#features_2_arrow_back').click(function () { $.scrollTo('#features_1',1000,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
     $('#features_2_arrow_next').click(function () { $.scrollTo('#features_3',1000,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
     $('#features_3_arrow_back').click(function () { $.scrollTo('#features_2',1000,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
-    $('#features_3_arrow_next').click(function () { $.scrollTo('#gallery',1000,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
+    $('#features_3_arrow_next').click(function () { $.scrollTo('#features_4',1000,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
+    $('#features_4_arrow_back').click(function () { $.scrollTo('#features_3',1000,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
+    $('#features_4_arrow_next').click(function () { $.scrollTo('#gallery',1000,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
     $('#gallery_arrow_back').click(function () { $.scrollTo('0px',1000,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
     },
  
@@ -79,23 +81,29 @@
             setTimeout(function(){$('#service_2').addClass('animated fadeInDown')},500);
             setTimeout(function(){$('#service_3').addClass('animated fadeInDown')},700);
         }, { offset: '50%' });
- 
+
         $('#features_1').waypoint(function() {
-            setTimeout(function(){$('#features_1_content').addClass('animated fadeInDown')},0);
-            setTimeout(function(){$('#features1a_image').addClass('animated fadeInRight')},1100);
-            setTimeout(function(){$('#features1b_image').addClass('animated fadeInRight')},600);
+            setTimeout(function(){$('#features_1_intro').addClass('animated fadeInDown')},0);
+            setTimeout(function(){$('#features_1_content_left, #features_1_content_right').addClass('animated fadeInUp')},700);
+            setTimeout(function(){$('#features_1_content_center').addClass('animated fadeInDown')},600)
         }, { offset: '50%' });
  
         $('#features_2').waypoint(function() {
             setTimeout(function(){$('#features_2_content').addClass('animated fadeInDown')},0);
-            setTimeout(function(){$('#features2a_image').addClass('animated fadeInLeft')},1100);
-            setTimeout(function(){$('#features2b_image').addClass('animated fadeInLeft')},600)
+            setTimeout(function(){$('#features2a_image').addClass('animated fadeInRight')},1100);
+            setTimeout(function(){$('#features2b_image').addClass('animated fadeInRight')},600);
         }, { offset: '50%' });
  
         $('#features_3').waypoint(function() {
-            setTimeout(function(){$('#features_3_intro').addClass('animated fadeInDown')},0);
-            setTimeout(function(){$('#features_3_content_left, #features_3_content_right').addClass('animated fadeInUp')},700);
-            setTimeout(function(){$('#features_3_content_center').addClass('animated fadeInDown')},600)
+            setTimeout(function(){$('#features_3_content').addClass('animated fadeInDown')},0);
+            setTimeout(function(){$('#features3a_image').addClass('animated fadeInLeft')},1100);
+            setTimeout(function(){$('#features3b_image').addClass('animated fadeInLeft')},600)
+        }, { offset: '50%' });
+
+        $('#features_4').waypoint(function() {
+            setTimeout(function(){$('#features_4_intro').addClass('animated fadeInDown')},0);
+            setTimeout(function(){$('#features_4_content_left, #features_4_content_right').addClass('animated fadeInUp')},700);
+            setTimeout(function(){$('#features_4_content_center').addClass('animated fadeInDown')},600)
         }, { offset: '50%' });
  
         $('#gallery').waypoint(function() {
