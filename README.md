@@ -1,2 +1,2 @@
-# lendme.github.io
-lendme website
+# LendMe
+
